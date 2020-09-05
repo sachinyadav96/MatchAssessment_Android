@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Sports I</string>
+
+    <string name="back_double_press">Press back again to exit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="summary">Summary</string>
+    <string name="scorecard">Scorecard</string>
+    <string name="commentary">Commentary</string>
+    <string name="info">Info</string>
+    <string name="date_time"><![CDATA[Date & Time]]></string>
+
+    <string name="equation">Equation</string>
+    <string name="margin">Margin</string>
+    <string name="win_margin">Win Margin</string>
+    <string name="winning_team">Winning team</string>
+    <string name="result">Result</string>
+    <string name="status">Status</string>
+    <string name="man_of_the_match">Man of the Match</string>
+    <string name="referee">Referee</string>
+    <string name="umpires">Umpires</string>
+
+    <string name="toss">Toss</string>
+    <string name="series">Series</string>
+    <string name="series_status">Series Status</string>
+    <string name="venue">Venue</string>
+    <string name="tour_name">Tour Name</string>
+    <string name="match">Match</string>
+
+    <string name="league">League</string>
+    <string name="team_away">Team Away</string>
+    <string name="team_home">Team Home</string>
+    <string name="match_details">Match Details</string>
+</resources>

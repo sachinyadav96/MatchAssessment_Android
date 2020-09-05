@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlHeader"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/grad_bg_color"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="?attr/selectableItemBackground"
+                android:foregroundGravity="center"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+        <com.cv.match.customView.TextViewMedium
+            android:id="@+id/txtHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:lineSpacingExtra="0sp"
+            android:padding="5dp"
+            android:text="Team"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabBackground="@color/white"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/colorAccent"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/colorPrimary"
+                app:tabTextColor="@color/text_color">
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tab1"
+                    style="@style/tab_item"
+                    android:text=" IN (India)" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tab2"
+                    style="@style/tab_item"
+                    android:text=" NZ (New zealand)" />
+
+
+            </com.google.android.material.tabs.TabLayout>
+
+            <com.cv.match.customView.TextViewRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="Players"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <com.cv.match.customView.TextViewLight
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/grey" />
+
+            <com.cv.match.customView.TextViewRegular
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <com.cv.match.customView.TextViewRegular
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <com.cv.match.customView.TextViewRegular
+                android:id="@+id/txt3"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="3"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <com.cv.match.customView.TextViewRegular
+                android:id="@+id/txt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="4"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <com.cv.match.customView.TextViewRegular
+                android:id="@+id/txt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <com.cv.match.customView.TextViewRegular
+                android:id="@+id/txt6"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="6"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <com.cv.match.customView.TextViewRegular
+                android:id="@+id/txt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="7"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <com.cv.match.customView.TextViewRegular
+                android:id="@+id/txt8"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="8"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <com.cv.match.customView.TextViewRegular
+                android:id="@+id/txt9"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="9"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <com.cv.match.customView.TextViewRegular
+                android:id="@+id/txt10"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="10"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <com.cv.match.customView.TextViewRegular
+                android:id="@+id/txt11"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="start|center"
+                android:letterSpacing="0.04"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:text="11"
+                android:textColor="@color/black"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

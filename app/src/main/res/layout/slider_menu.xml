@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg_color"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/ll_Home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="7dp">
+
+        <com.cv.match.customView.TextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_MatchInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="7dp">
+
+
+        <com.cv.match.customView.TextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="Match Info"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_Team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="7dp">
+
+
+        <com.cv.match.customView.TextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="Teams Players"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_Exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="7dp">
+
+
+        <com.cv.match.customView.TextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="Exit"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_NoArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        android:padding="7dp" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="7dp">
+
+
+        <com.cv.match.customView.TextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="Version 1.1"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
